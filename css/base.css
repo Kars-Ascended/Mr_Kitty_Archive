@@ -1,0 +1,61 @@
+:root {
+    --white:#DEE1DD;
+    --black: #000;
+    --dark:#301010;
+    --light:#964A4F;
+
+    --other1:#49d144;
+}
+
+.centre {text-align: center;}
+* {box-sizing: border-box;}
+
+html, body {
+    background-color: black;
+    color:var(--white);
+    font-family: Arial;
+    padding:0;
+    margin:0;
+    margin-top:3em;
+    margin-inline: 5%;
+}
+
+.main {
+    background-color:#0f0f0f;
+    min-height: calc(100vh - 4em);
+    top:4em;
+    position: absolute;
+    width:80%;
+    padding-inline: 2em;
+}
+
+.button {
+    background-color: var(--light);
+    padding:10px;
+    border-radius: 5px;
+}
+
+a {
+    color:var(--white);
+    display: inline-block;
+    line-height: 1; /* Prevent line height from affecting button size */
+    text-decoration: none;
+}
+
+
+
+.percentage-line {
+    position: relative;
+    padding: 10px 20px; /* Adjust for button size */
+    overflow: hidden;
+}
+
+.percentage-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px; /* Thin line */
+    background-color: var(--accent); /* Primary color */
+    width: var(--percentage, 50%); /* Default percentage (50%) */
+}
