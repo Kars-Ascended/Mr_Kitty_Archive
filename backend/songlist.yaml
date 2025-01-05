@@ -1,0 +1,28 @@
+# song list that contains all songs, will be used for a "song of the day" feature im planning to add
+# feel free to help finish it
+# ignore 'filePath' for now, as there is no song file here. 
+
+albums:
+  - albumTitle: "D E A T H"
+    albumCover: "/assets/images/covers/album/death.jpg"
+    songs:
+      - title: "Inhale, Exhale"
+        spotifyLink: "https://open.spotify.com/track/1CXR1WOvb9E8RKbDC8LhZu"
+        youtubeLink: ""
+        filePath: ""
+      - title: "Someday"
+        spotifyLink: "https://open.spotify.com/track/7gPO3Xx8ydPgwxxw0V18iV"
+        youtubeLink: ""
+        filePath: ""
+
+  - albumTitle: "ETERNITY"
+    albumCover: "/assets/images/covers/album/eternity.jpg"
+    songs:
+      - title: "44 Days"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Messiah"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""

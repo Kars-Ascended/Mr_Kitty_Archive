@@ -7,9 +7,10 @@
 </head>
 <body>
     <div class="main">
-        <h1 class="centre"> Welcome to MKA <span style="font-size: 0.7em;"> (Mr Kitty Archive) </span></h1>
+        <?php include "../backend/wip.php" ?> 
+        <h1 class="centre">Contact</h1>
         <br>
-        <p>// more content here</p>
+        <h3>Soon...</h3>
     </div>
 </body>
 </html>

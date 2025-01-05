@@ -1,0 +1,51 @@
+.sotd {    position: relative;
+    background-color: var(--dark);
+    height:20em;
+    margin-inline: 3em;
+    border-radius: 30px;
+}
+
+.sotd img {
+    max-height: 100%;
+    width: auto; /* Maintains aspect ratio */
+    height: auto; /* Ensures image scales properly */
+    position: absolute;
+    right:0;
+    top:0;
+
+    padding:1em;
+    border-radius: 2em;
+}
+
+.sotd .title {
+    position: absolute;
+    width: calc((100% - 320px) - 3em);
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--darker);
+    height:40%;
+    margin-inline: 2em;
+    margin-top:1em;
+    
+}
+
+
+.sotd #link {
+    background-color: blue;
+}
+
+.sotd #title {
+    justify-content: center;
+    margin:0;
+    position: absolute;
+    top:0;
+    width:100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height:100%;
+  }
+
+  h1 {
+    text-align: center;
+  }

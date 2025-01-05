@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 :root {
     --white:#DEE1DD;
     --black: #000;
     --dark:#301010;
+    --darker:#220707;
     --light:#964A4F;
 
     --other1:#49d144;
@@ -13,7 +16,7 @@
 html, body {
     background-color: black;
     color:var(--white);
-    font-family: Arial;
+    font-family: Poppins;
     padding:0;
     margin:0;
     margin-top:3em;
@@ -42,8 +45,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .percentage-line {
     position: relative;
     padding: 10px 20px; /* Adjust for button size */
@@ -56,6 +57,8 @@ a {
     bottom: 0;
     left: 0;
     height: 2px; /* Thin line */
-    background-color: var(--accent); /* Primary color */
+    background-color: var(--other1); /* Primary color */
     width: var(--percentage, 50%); /* Default percentage (50%) */
 }
+
+.three-b {width:26%; text-align: center;}

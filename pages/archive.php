@@ -7,9 +7,8 @@
 </head>
 <body>
     <div class="main">
-        <h1 class="centre"> Welcome to MKA <span style="font-size: 0.7em;"> (Mr Kitty Archive) </span></h1>
-        <br>
-        <p>// more content here</p>
+        <?php include "../backend/wip.php" ?> 
+        <h1 class="centre">Archive</h1>
     </div>
 </body>
 </html>
