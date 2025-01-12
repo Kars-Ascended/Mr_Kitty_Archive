@@ -7,9 +7,9 @@ RewriteRule ^discography$ discography.php [L]
 RewriteRule ^$ index.php [L]
 RewriteRule ^song-of-the-day$ sotd.php [L]
 
-    RewriteRule ^other$ other.php [L]
-    RewriteRule ^pre-2010$ pre-2010.php [L]
-    RewriteRule ^releases$ releases.php [L]
+RewriteRule ^other$ other.php [L]
+RewriteRule ^pre-2010$ pre-2010.php [L]
+RewriteRule ^releases$ releases.php [L]
 
 
 
