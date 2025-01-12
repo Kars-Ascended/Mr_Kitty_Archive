@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteBase /
+
+# Rewrite pages
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^discography$ discography.php [L]
+RewriteRule ^$ index.php [L]
+RewriteRule ^song-of-the-day$ sotd.php [L]
+
+    RewriteRule ^other$ other.php [L]
+    RewriteRule ^pre-2010$ pre-2010.php [L]
+    RewriteRule ^releases$ releases.php [L]
+
+
+
+
+# Hide /pages in the URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ pages/$1 [L]

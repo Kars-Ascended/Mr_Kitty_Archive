@@ -1,13 +1,13 @@
 <head>
     <title>Discography</title>
-    <?php include "../backend/nav.php" ?> 
+    <?php include "../../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/wip.css">
 </head>
 <body>
     <div class="main">
-        <?php include "../backend/wip.php" ?> 
+        <?php include "../../backend/wip.php" ?> 
         <h1 class="centre">Discography</h1>
         <br>
         <h3>Important note! Due to the free host im using im unable to upload the songs, so as of know they will not be playable!</h3>
@@ -15,9 +15,9 @@
         <br>
 
         <div style="display:flex; gap:4em; justify-content: center;">
-        <a class="button three-b percentage-line" style="--percentage: 0%;" href="/songs/pre2010.php">Pre 2010 [0% Complete]</a>
-        <a class="button three-b percentage-line" style="--percentage: 0%;" href="/songs/releases">Releases [0% Complete]</a>
-        <a class="button three-b percentage-line" style="--percentage: 0%;" href="/songs/other">Demos/Singles/Remixes [0% Complete]</a>
+        <a class="button three-b percentage-line" style="--percentage: 0%;" href="discography/pre-2010">Pre 2010 [0% Complete]</a>
+        <a class="button three-b percentage-line" style="--percentage: 0%;" href="discography/releases">Releases [0% Complete]</a>
+        <a class="button three-b percentage-line" style="--percentage: 0%;" href="discography/other">Demos/Singles/Remixes [0% Complete]</a>
         </div>
     </div>
 </body>

@@ -11,12 +11,11 @@
 }
 
 .centre {text-align: center;}
-* {box-sizing: border-box;}
+* {box-sizing: border-box !important; font-family: Poppins; color:white;}
 
 html, body {
     background-color: black;
     color:var(--white);
-    font-family: Poppins;
     padding:0;
     margin:0;
     margin-top:3em;
@@ -36,6 +35,8 @@ html, body {
     background-color: var(--light);
     padding:10px;
     border-radius: 5px;
+    border:none;
+    color:white;
 }
 
 a {
@@ -62,3 +63,7 @@ a {
 }
 
 .three-b {width:26%; text-align: center;}
+
+.flex {
+    display: flex;
+}
