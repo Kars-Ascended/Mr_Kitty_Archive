@@ -4,7 +4,6 @@ RewriteBase /
 # Rewrite pages
 RewriteRule ^contact$ contact.php [L]
 RewriteRule ^discography$ discography.php [L]
-RewriteRule ^$ index.php [L]
 RewriteRule ^song-of-the-day$ sotd.php [L]
 
 RewriteRule ^other$ other.php [L]
