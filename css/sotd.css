@@ -5,7 +5,7 @@
     border-radius: 30px;
 }
 
-.sotd img {
+.sotd #albumCover {
     max-height: 100%;
     width: auto; /* Maintains aspect ratio */
     height: auto; /* Ensures image scales properly */
@@ -29,9 +29,16 @@
     
 }
 
-
 .sotd #link {
-    background-color: blue;
+    position: absolute;
+    width: calc((100% - 320px) - 3em);
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--darker);
+    height:40%;
+    margin-inline: 2em;
+    margin-top:1em;
+    top:10em
 }
 
 .sotd #title {
@@ -44,8 +51,15 @@
     display: flex;
     align-items: center;
     height:100%;
-  }
+}
 
-  h1 {
+h1 {
     text-align: center;
-  }
+}
+
+.links img {
+    max-height:9em;
+    margin-top:-0.5em;
+    padding:1em;
+    border-radius: 2em;
+}

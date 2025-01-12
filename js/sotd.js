@@ -1,5 +1,3 @@
-// gets a random song from songlist.yaml and displays it in sotd.php
-
 fetch('/backend/songlist.yaml')
   .then(response => response.text())
   .then(yamlText => {
@@ -26,6 +24,25 @@ fetch('/backend/songlist.yaml')
 
     // Update the page
     document.querySelector('#title').innerText = songOfTheDay.title;
-    document.querySelector('#link').href = songOfTheDay.link;
     document.querySelector('#albumCover').src = songOfTheDay.albumCover;
+
+    // Set Spotify and YouTube links
+    if (songOfTheDay.spotifyLink) {
+      document.querySelector('#spotifyLink').href = songOfTheDay.spotifyLink;
+    } else {
+      document.querySelector('#spotifyLink').style.display = 'none';
+    }
+
+    if (songOfTheDay.youtubeLink) {
+      document.querySelector('#youtubeLink').href = songOfTheDay.youtubeLink;
+    } else {
+      document.querySelector('#youtubeLink').style.display = 'none';
+    }
+    
+    // Set file download link
+    if (songOfTheDay.filePath) {
+      document.querySelector('#fileDownloadLink').href = songOfTheDay.filePath;
+    } else {
+      document.querySelector('#fileDownloadLink').style.display = 'none';
+    }
   });
