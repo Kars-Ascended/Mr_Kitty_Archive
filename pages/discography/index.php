@@ -15,9 +15,9 @@
         <br>
 
         <div style="display:flex; gap:4em; justify-content: center;">
-        <a class="button three-b percentage-line" style="--percentage: 0%;" href="pre-2010">Pre 2010 [0% Complete]</a>
-        <a class="button three-b percentage-line" style="--percentage: 0%;" href="releases">Releases [0% Complete]</a>
-        <a class="button three-b percentage-line" style="--percentage: 0%;" href="other">Demos/Singles/Remixes [0% Complete]</a>
+        <a class="button three-b percentage-line" style="--percentage: 0%;" href="pre-2010.php">Pre 2010 [0% Complete]</a>
+        <a class="button three-b percentage-line" style="--percentage: 0%;" href="releases.php">Releases [0% Complete]</a>
+        <a class="button three-b percentage-line" style="--percentage: 0%;" href="other.php">Demos/Singles/Remixes [0% Complete]</a>
         </div>
     </div>
 </body>
