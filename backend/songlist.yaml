@@ -1,6 +1,5 @@
-# song list that contains all songs, will be used for a "song of the day" feature im planning to add
-# feel free to help finish it
-# ignore 'filePath' for now, as there is no song file here. 
+# used for the sotd page
+# filePath will eventually link to the local path once added
 
 albums:
   - albumTitle: "D E A T H"
