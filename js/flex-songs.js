@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (targetDiv.style.display === 'none' || targetDiv.style.display === '') {
         targetDiv.style.display = 'block';
-        button.textContent = `Hide ${targetDiv.id}`;
-      } else {
+        button.style.backgroundColor = 'green';  // Set the button color when the div is visible
+    } else {
         targetDiv.style.display = 'none';
-        button.textContent = `Show ${targetDiv.id}`;
-      }
+        button.style.backgroundColor = '';  // Reset the button color when the div is hidden
+    }
     });
   });
 });

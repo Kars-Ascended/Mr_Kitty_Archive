@@ -1,7 +1,19 @@
 .toggleDiv {
   display: none; /* Initially hidden */
   padding: 20px;
-  background-color: lightblue;
-  border: 1px solid blue;
+  background-color: var(--dark);
+  border-radius: 1em;
+  min-height:20em;
   margin-top: 10px;
+}
+
+.togglebutton:hover {
+  scale: 1.1;
+}
+
+.togglebutton {gap: 1em; margin-inline: 0.5em;}
+
+.buttons {
+  padding: 1em;
+  justify-content: space-between;
 }
