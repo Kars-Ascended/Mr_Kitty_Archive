@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/flex-songs.css">
     <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/wip.css">
+    <link rel="stylesheet" href="/css/meta.css">
 </head>
 <body>
     <div class="main">
-        <?php include "../../backend/wip.php" ?> 
+        <?php include "../../backend/meta/wip.php" ?> 
         <h1 class="centre">Releases</h1>
         <div class="buttons">
         <button class="toggleButton button" data-target="div1">D E A T H</button>
