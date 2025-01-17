@@ -7,10 +7,10 @@
 </head>
 <body>
     <div class="main">
-        <?php include "../backend/meta/wip.php" ?> 
         <h1 class="centre">Contact</h1>
         <br>
-        <h3>Soon...</h3>
+        <p>Subsidiary to <a class=link href="https://www.reddit.com/r/MrKittyFans/">r/MrKittyFans</a></p>
+        <p>You can message <a class="link" href="https://www.reddit.com/user/Father_Enrico/">u/Father_Enrico</a> if you want to contact me</p>
     </div>
 </body>
 </html>

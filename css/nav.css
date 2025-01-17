@@ -10,8 +10,6 @@
     z-index: 10000;
 }
 
-a:hover {
-    transform: scale(1.05);  /* Adjust scale value */
-}
+
 
 .nav .button { margin: 0.4em;}

@@ -6,8 +6,8 @@
     --dark:#301010;
     --darker:#220707;
     --light:#964A4F;
-
     --other1:#49d144;
+    --other2:#a372c4;
 }
 
 .centre {text-align: center;}
@@ -66,4 +66,13 @@ a {
 
 .flex {
     display: flex;
+}
+
+a:hover:not(.link) { /* Affects all a elements excluding ones tagged with .link class */
+    transform: scale(1.05);  /* Adjust scale value */
+}
+
+.link {
+    text-decoration:underline;
+    color: var(--other2);
 }

@@ -11,7 +11,7 @@
     <div class="main">
         <?php include "../../backend/meta/wip.php" ?> 
         <h1 class="centre">Releases</h1>
-        <div class="buttons">
+        <div class="centre buttons">
         <button class="toggleButton button" data-target="div1">D E A T H</button>
         <button class="toggleButton button" data-target="div2">ETERNITY</button>
         <button class="toggleButton button" data-target="div3">Life</button>
@@ -21,7 +21,6 @@
         <button class="toggleButton button" data-target="div7">A.I.</button>
         <button class="toggleButton button" data-target="div8">Ephemeral</button>
         <button class="toggleButton button" data-target="div9">Unreal</button>
-        <button class="toggleButton button" data-target="div10">...</button>
         <div id="div1" class="toggleDiv">
             <div class="audio-player">
             <button onclick="audio.play()">Play</button>
@@ -41,7 +40,6 @@
         <div id="div7" class="toggleDiv"></div>
         <div id="div8" class="toggleDiv"></div>
         <div id="div9" class="toggleDiv"></div>
-        <div id="div10" class="toggleDiv">???</div>
         </div>
     </div>
         <script src="/js/gd-audio.js"></script>

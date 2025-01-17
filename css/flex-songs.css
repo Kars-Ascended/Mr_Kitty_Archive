@@ -11,7 +11,7 @@
   scale: 1.1;
 }
 
-.togglebutton {gap: 1em; margin-inline: 0.5em;}
+.togglebutton {gap: 1em; margin-inline: 0.5em; width: 10em;}
 
 .buttons {
   padding: 1em;
