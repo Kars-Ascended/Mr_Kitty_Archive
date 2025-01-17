@@ -1,6 +1,7 @@
 # used for the sotd page
 # filePath will eventually link to the local path once added
 
+
 albums:
   - albumTitle: "D E A T H"
     albumCover: "/assets/images/covers/album/death.jpg"
@@ -11,6 +12,54 @@ albums:
         filePath: ""
       - title: "Someday"
         spotifyLink: "https://open.spotify.com/track/7gPO3Xx8ydPgwxxw0V18iV"
+        youtubeLink: ""
+        filePath: ""
+      - title: "Neverending Nights"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Bleed Black"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Haunts"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Gold"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Fight Your Friends"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Constellations"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "White Tiger"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "✝✝"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Disintegrate"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "It is all true"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "My Favorite Ghost"
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+      - title: "Resurrection"
+        spotifyLink: ""
         youtubeLink: ""
         filePath: ""
 
@@ -25,3 +74,280 @@ albums:
         spotifyLink: "https://open.spotify.com/track/4dmxAuFQkHVqwNZ264DVrz?si=e1f8198a6b484568"
         youtubeLink: "https://youtu.be/__W5YCaxsDE"
         filePath: ""
+
+  - albumTitle: "Life"
+    albumCover: "/assets/images/covers/album/life.jpg"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+        
+
+  - albumTitle: "Time"
+    albumCover: "/assets/images/covers/album/time.png"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+  
+  - albumTitle: "Fragments"
+    albumCover: "/assets/images/covers/album/fragments.jpg"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+
+  - albumTitle: "-+"
+    albumCover: "/assets/images/covers/album/-+.jpg"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+  
+  - albumTitle: "A.I."
+    albumCover: "/assets/images/covers/album/a.i..jpg"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+
+  - albumTitle: "Ephemeral"
+    albumCover: "/assets/images/covers/album/eph.png"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+
+  - albumTitle: "Unreal"
+    albumCover: "/assets/images/covers/album/unreal.jpg"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+  
+#
+# PRE-2010!!!
+#
+  
+  - albumTitle: "Fold"
+    albumCover: "/assets/images/covers/album/pre2010/fold.png"
+    songs:
+      - title: ""
+        spotifyLink: ""
+        youtubeLink: ""
+        filePath: ""
+
+  # - albumTitle: "BoxCore"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+  
+  # - albumTitle: "Fortune Cookies"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Fuck Around At 800BPM"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Fuck Around At 800BPM"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Heaven Is For Sale"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Me And My Chibi Anime Cat"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Nintendo Beats"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Prisonerr Of Breakcore"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+  
+  # - albumTitle: "Satanic Breakbeats"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Silent Hill Remixes"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+  
+  # - albumTitle: "Anarchy Is For Lovers"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Forever Nintendo"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Friend"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Gemini"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Heart Of Darkness"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Pocked Sized Psycho"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Sorrow Underground"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+  
+  # - albumTitle: "The Other Side"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Hello, My Darling"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "L.S.D"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Scene Kids"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+        
+  # - albumTitle: "Survive"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+      
+  # - albumTitle: "Birds"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "F.E.A.R.S"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Illusions"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
+
+  # - albumTitle: "Until Death Do Us Part"
+  #   albumCover: "/assets/images/covers/album/"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
