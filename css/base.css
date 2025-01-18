@@ -10,25 +10,26 @@
     --other2:#a372c4;
 }
 
-.centre {text-align: center;}
-* {box-sizing: border-box !important; font-family: Poppins; color:white;}
 
 html, body {
     background-color: black;
     color:var(--white);
     padding:0;
     margin:0;
-    margin-top:3em;
+    margin-top:2em;
     margin-inline: 5%;
 }
 
 .main {
     background-color:#0f0f0f;
     min-height: calc(100vh - 4em);
-    top:4em;
-    position: absolute;
-    width:80%;
+    top:0;
+    position: relative;
     padding-inline: 2em;
+    width: 75%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 1em;
 }
 
 .button {
@@ -46,33 +47,14 @@ a {
     text-decoration: none;
 }
 
-.percentage-line {
-    position: relative;
-    padding: 10px 20px; /* Adjust for button size */
-    overflow: hidden;
-}
 
-.percentage-line::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px; /* Thin line */
-    background-color: var(--other1); /* Primary color */
-    width: var(--percentage, 50%); /* Default percentage (50%) */
-}
+/* Affects all a elements excluding ones tagged with .link class */
+a:hover:not(.link) {  transform: scale(1.05);  /* Scale buttons on hover */ }
 
-.three-b {width:26%; text-align: center;}
+.link { text-decoration:underline; color: var(--other2); }
 
-.flex {
-    display: flex;
-}
+.centre {text-align: center;}
 
-a:hover:not(.link) { /* Affects all a elements excluding ones tagged with .link class */
-    transform: scale(1.05);  /* Adjust scale value */
-}
+.flex {display: flex;}
 
-.link {
-    text-decoration:underline;
-    color: var(--other2);
-}
+* {box-sizing: border-box !important; font-family: Poppins; color:white;}

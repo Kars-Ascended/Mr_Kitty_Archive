@@ -1,0 +1,17 @@
+.percentage-line {
+    position: relative;
+    padding: 10px 20px; /* Adjust for button size */
+    overflow: hidden;
+}
+
+.percentage-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px; /* Thin line */
+    background-color: var(--other1); /* Primary color */
+    width: var(--percentage, 50%); /* Default percentage (50%) */
+}
+
+.three-b {width:26%; text-align: center;}
