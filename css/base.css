@@ -58,10 +58,3 @@ a:hover:not(.link) {  transform: scale(1.05);  /* Scale buttons on hover */ }
 .flex {display: flex;}
 
 * {box-sizing: border-box !important; font-family: Poppins; color:white;}
-
-img.corner{
-    position: absolute;
-    right:0;
-    bottom:0;
-    width: 20em; height: auto;
-}
