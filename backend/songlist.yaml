@@ -136,13 +136,13 @@ albums:
 # PRE-2010!!!
 #
   
-  - albumTitle: "Fold"
-    albumCover: "/assets/images/covers/album/pre2010/fold.png"
-    songs:
-      - title: ""
-        spotifyLink: ""
-        youtubeLink: ""
-        filePath: ""
+  # - albumTitle: "Fold"
+  #   albumCover: "/assets/images/covers/album/pre2010/fold.png"
+  #   songs:
+  #     - title: ""
+  #       spotifyLink: ""
+  #       youtubeLink: ""
+  #       filePath: ""
 
   # - albumTitle: "BoxCore"
   #   albumCover: "/assets/images/covers/album/"

@@ -22,13 +22,7 @@
         <button class="toggleButton button" data-target="div8">Ephemeral</button>
         <button class="toggleButton button" data-target="div9">Unreal</button>
         <div id="div1" class="toggleDiv">
-            <div class="audio-player">
-            <button onclick="audio.play()">Play</button>
-            <button onclick="audio.pause()">Pause</button>
-            <input type="range" id="progress" value="0" step="0.1" onchange="updateTime()">
-            <span id="time">0:00</span>
-            </div>
-            <audio id="audio" src="https://drive.google.com/uc?id=14X-8emJKGpaUZ50J6A8FrN3hXyyUo-Ze&export=download"></audio>
+            <audio controls src="https://archive.org/download/mka_20250119/songs/Releases/D%20E%20A%20T%20H/Inhale%2C%20Exhale.mp3"></audio>
 
 
         </div>

@@ -10,6 +10,11 @@
     z-index: 10000;
 }
 
-
+img.corner{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 20em; height: auto;
+}
 
 .nav .button { margin: 0.4em;}

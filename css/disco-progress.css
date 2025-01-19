@@ -14,4 +14,4 @@
     width: var(--percentage, 50%); /* Default percentage (50%) */
 }
 
-.three-b {width:26%; text-align: center;}
+.three-b {width:100%; text-align: center;}

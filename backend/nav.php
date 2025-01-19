@@ -6,5 +6,5 @@
     <a class="button" href="/song-of-the-day">Song Of The Day</a>
 </div>
 
-
+<!-- places the corner forrest img -->
 <img class="corner" src="\assets\images\blue-tsp.png">
