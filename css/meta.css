@@ -1,5 +1,5 @@
-/* meta = the info boxes on pages, wip is just one of many */
-/* rename those as needed, if we need more lmk */
+/* meta = the info boxes on pages */
+/* if we need more lmk */
 
 .meta {
     padding: 0px 0px;
@@ -22,26 +22,26 @@
 
 /* BOXES DOWN HERE */
 
+.box4 {
+    border-inline: 4px solid rgb(255, 160, 30);
+    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 160, 71) 100%) -13px top / 150% 110%;
+    box-shadow: rgb(246, 160, 0) 0px 0px 9px 0px
+}
+
+.error {
+    border-inline: 4px solid rgb(255, 30, 30);
+    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 71, 71) 100%) -13px top / 150% 110%;
+    box-shadow: rgb(246, 0, 0) 0px 0px 9px 0px
+}
+
+.helpers {
+    border-inline: 4px solid rgb(30, 30, 255);
+    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(71, 71, 255) 100%) -13px top / 150% 110%;
+    box-shadow: rgb(0, 0, 255) 0px 0px 9px 0px
+}
+
 .wip {
     border-inline: 4px solid rgb(255, 199, 30);
-    background: radial-gradient(at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 236, 144) 100%) -13px top / 150% 110%;
+    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 224, 71) 100%) -13px top / 150% 110%;
     box-shadow: rgb(246, 209, 0) 0px 0px 9px 0px
-}
-
-.box2 {
-    border-inline: 4px solid #ff000024;
-    background: radial-gradient(ellipse at 40% 70%,#00000042 35%, #ff002482 100%);
-    box-shadow: inset 0 0 9px 0 #ff002440, 0 0 6px 0 #ff002447;
-}
-
-.box3 {
-    border-inline: 4px solid #ff000000;
-    background: radial-gradient(ellipse at 40% 70%,#220022FF 35%, #ff00ff40 100%);
-    box-shadow: inset 0 0 9px 0 #ff002440, 0 0 6px 0 #ff00ff47;
-}
-
-.box4 {
-    border-inline: 4px solid #fa6622;
-    background: radial-gradient(ellipse at 40% 70%,#00000042 35%, #ff6600 100%);
-    box-shadow: inset 0 0 9px 0 #f66900, 0 0 6px 0 #ff002447;
 }
