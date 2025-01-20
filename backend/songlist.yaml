@@ -585,6 +585,7 @@ albums:
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
+        explicit: "true"
       - title: "Part Of You"
         spotifyLink: ""
         youtubeLink: ""
@@ -638,6 +639,7 @@ albums:
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
+        explicit: "true"
       - title: "Reason"
         spotifyLink: ""
         youtubeLink: ""
@@ -654,6 +656,7 @@ albums:
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
+        explicit: "true"
       - title: "Heavy"
         spotifyLink: ""
         youtubeLink: ""
@@ -706,7 +709,7 @@ albums:
         filePath: ""
 
   - albumTitle: "BoxCore"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/boxcore.png"
     songs:
       - title: "Underground Cardboard Service"
         spotifyLink: ""
@@ -734,7 +737,7 @@ albums:
         filePath: ""
   
   - albumTitle: "Fortune Cookies"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/fortune.png"
     songs:
       - title: "Kill Me With Your Love"
         spotifyLink: ""
@@ -758,7 +761,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Fuck Around At 800BPM"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/faa8.png"
     songs:
       - title: "Fuck Around At 800bpm"
         spotifyLink: ""
@@ -770,7 +773,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Heaven Is For Sale"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/heaven.png"
     songs:
       - title: "Intro"
         spotifyLink: ""
@@ -798,7 +801,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Me And My Chibi Anime Cat"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/meandmy.png"
     songs:
       - title: "Kaylicore"
         spotifyLink: ""
@@ -824,9 +827,10 @@ albums:
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
+        explicit: "true"
 
   - albumTitle: "Nintendo Beats"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/nintendobeats.png"
     songs:
       - title: "NintendoOnDrugz"
         spotifyLink: ""
@@ -854,7 +858,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Prisonerr Of Breakcore"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/prisonerr of breakcore.png"
     songs:
       - title: "MumzNotHome"
         spotifyLink: ""
@@ -870,7 +874,7 @@ albums:
         filePath: ""
   
   - albumTitle: "Satanic Breakbeats"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/satanicbreakbeats.png"
     songs:
       - title: "Demonic Beatz"
         spotifyLink: ""
@@ -888,17 +892,19 @@ albums:
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
+        explicit: "true"
       - title: "Emowhore Samantha"
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
+        explicit: "true"
       - title: "Miserable To You"
         spotifyLink: ""
         youtubeLink: ""
         filePath: ""
 
   - albumTitle: "Silent Hill Remixes"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/silenthill.png"
     songs:
       - title: "You're Still Not Here"
         spotifyLink: ""
@@ -914,7 +920,7 @@ albums:
         filePath: ""
   
   - albumTitle: "Anarchy Is For Lovers"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/anarchy.png"
     songs:
       - title: "Cemetary Lounge"
         spotifyLink: ""
@@ -940,7 +946,7 @@ albums:
 # UNDONE
 
   - albumTitle: "Forever Nintendo"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/forever.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -948,7 +954,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Friend"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/friend.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -956,7 +962,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Gemini"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/gemini"
     songs:
       - title: ""
         spotifyLink: ""
@@ -964,7 +970,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Heart Of Darkness"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/heart.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -972,7 +978,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Pocked Sized Psycho"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/pocket.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -980,7 +986,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Sorrow Underground"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/sorrowunderground.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -988,7 +994,7 @@ albums:
         filePath: ""
   
   - albumTitle: "The Other Side"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/theotherside.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -996,7 +1002,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Hello, My Darling"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/hellomydarling.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1004,7 +1010,7 @@ albums:
         filePath: ""
 
   - albumTitle: "L.S.D"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/l.s.d.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1012,7 +1018,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Scene Kids"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/scenekids.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1020,7 +1026,7 @@ albums:
         filePath: ""
         
   - albumTitle: "Survive"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/survive.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1028,7 +1034,7 @@ albums:
         filePath: ""
       
   - albumTitle: "Birds"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/birds.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1036,7 +1042,7 @@ albums:
         filePath: ""
 
   - albumTitle: "F.E.A.R.S"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/fears.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1044,7 +1050,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Illusions"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/illusions.png"
     songs:
       - title: ""
         spotifyLink: ""
@@ -1052,7 +1058,7 @@ albums:
         filePath: ""
 
   - albumTitle: "Until Death Do Us Part"
-    albumCover: "/assets/images/covers/album/"
+    albumCover: "/assets/images/covers/album/pre2010/uddup.png"
     songs:
       - title: ""
         spotifyLink: ""

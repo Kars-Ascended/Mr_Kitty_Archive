@@ -38,6 +38,13 @@ fetch('/backend/songlist.yaml')
     } else {
       document.querySelector('#youtubeLink').style.display = 'none';
     }
+
+    // Set explicit tag
+    if (songOfTheDay.explicit === "true") {
+      document.querySelector('#explicitWarning').style.display = 'block'; // Make the element visible
+    } else {
+      document.querySelector('#explicitWarning').style.display = 'none'; // Hide it otherwise
+    }
     
     // Set file download link
     if (songOfTheDay.filePath) {
@@ -45,4 +52,9 @@ fetch('/backend/songlist.yaml')
     } else {
       document.querySelector('#fileDownloadLink').style.display = 'none';
     }
+
+    
+
+
+
   });
