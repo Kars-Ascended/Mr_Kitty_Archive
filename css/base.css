@@ -49,7 +49,12 @@ a {
 
 
 /* Affects all a elements excluding ones tagged with .link class */
-a:hover:not(.link) {  transform: scale(1.05);  /* Scale buttons on hover */ }
+a:hover:not(.link) { 
+    transform: scale(1.05); /* Scale buttons on hover */ 
+}
+
+.nav a img:hover {
+    transform: scale(0) !important;}
 
 .link { text-decoration:underline; color: var(--other2); }
 

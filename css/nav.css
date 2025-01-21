@@ -6,8 +6,15 @@
     border-bottom: var(--light) solid 2px;
     height:4em;
     line-height:4em;
-    padding-left: 0.5em;
     z-index: 10000;
+    padding-left:90px;
+
+    img {
+        position: absolute;
+        left: 0; top: 0;
+        width: auto;
+        height:calc(4em - 2px);
+    }
 }
 
 img.corner{

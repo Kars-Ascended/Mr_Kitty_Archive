@@ -8,14 +8,14 @@
 </head>
 <body>
     <div class="main">
-        <?php include "../backend/meta/wip.php" ?> 
+        <?php include "../backend/meta/helpers.php" ?> 
         <h1 class="centre">Song Of The Day</h1>
         <br>
         <div class="sotd">
           <div class="title">
             <h1 id="title">Song Title</h1>
             <div id="explicitWarning" class="explicit">
-              <img src="\assets\images\explicit.png">
+              <img src="\assets\images\sotd_icons\explicit.png">
             </div>
           </div>
 
