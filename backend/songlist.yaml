@@ -71,8 +71,8 @@ albums:
     albumCover: "/assets/images/covers/album/eternity.jpg"
     songs:
       - title: "44 Days"
-        spotifyLink: ""
-        youtubeLink: ""
+        spotifyLink: "https://open.spotify.com/track/1CXR1WOvb9E8RKbDC8LhZu"
+        youtubeLink: "https://youtube.com/track/1CXR1WOvb9E8RKbDC8LhZu"
         filePath: ""
       - title: "Messiah"
         spotifyLink: "https://open.spotify.com/track/4dmxAuFQkHVqwNZ264DVrz?si=e1f8198a6b484568"
