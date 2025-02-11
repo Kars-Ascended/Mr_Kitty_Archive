@@ -2,7 +2,6 @@
     <title>Template</title>
     <?php include "../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/meta.css">
 </head>
 <body>

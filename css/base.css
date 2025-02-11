@@ -1,65 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* Used for elements included on all pages like bg, basic body borders, navbar, etc...*/ 
 
-:root {
-    --white:#DEE1DD;
-    --black: #000;
-    --dark:#301010;
-    --darker:#220707;
-    --light:#964A4F;
-    --other1:#49d144;
-    --other2:#a372c4;
-}
-
-
-html, body {
-    background-color: black;
-    color:var(--white);
-    padding:0;
+* {
+    box-sizing: border-box;
     margin:0;
-    margin-top:2em;
-    margin-inline: 5%;
+    padding:0;
+    color: white /* Makes all text (and other things) white, override manually if needed */ 
 }
 
-.main {
-    background-color:#0f0f0f;
-    min-height: calc(100vh - 4em);
-    top:0;
-    position: relative;
-    padding-inline: 2em;
-    width: 75%;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-top: 1em;
+body {
+    background-color: black;
 }
-
-.button {
-    background-color: var(--light);
-    padding:10px;
-    border-radius: 5px;
-    border:none;
-    color:white;
-}
-
-a {
-    color:var(--white);
-    display: inline-block;
-    line-height: 1; /* Prevent line height from affecting button size */
-    text-decoration: none;
-}
-
-
-/* Affects all a elements excluding ones tagged with .link class */
-a:hover:not(.link) { 
-    transform: scale(1.05); /* Scale buttons on hover */ 
-}
-
-.nav a img:hover {
-    transform: scale(0) !important;}
-
-.link { text-decoration:underline; color: var(--other2); }
-
-.centre {text-align: center;}
-
-.flex {display: flex;}
-
-* {box-sizing: border-box !important; font-family: Poppins; color:white;}
