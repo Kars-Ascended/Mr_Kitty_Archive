@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="main">
-        <p>test</p>
+        <p>home</p>
 
     </div>
 </body>

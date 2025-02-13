@@ -6,9 +6,7 @@
 </head>
 <body>
     <div class="main">
-        <?php include "../../backend/meta/wip.php" ?>
-
-        <!-- Template for all future pages -->
+        <p>test</p>
 
     </div>
 </body>
