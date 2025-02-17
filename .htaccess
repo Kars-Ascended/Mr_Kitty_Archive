@@ -1,12 +1,13 @@
 RewriteEngine On
-RewriteBase /
 
 # Rewrite pages
 RewriteRule ^home$ index.php [L]
+RewriteRule ^lyrics$ lyrics.php [L]
+RewriteRule ^daily-song$ dailySong.php [L]
 
 
 
-# Hide /pages in the URL
+# hide pages
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ pages/$1 [L]
+RewriteRule ^(.*)$ /pages/$1 [L]

@@ -1,5 +1,7 @@
 <head>
     <title>Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script defer src="/js/lyrics.js"></script>
     <?php include "../../../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/meta.css">
@@ -10,10 +12,22 @@
             <div class="element-box">
                 1. Inhale, Exhale
                 <audio controls></audio>
+                <button class="btn" onclick="openLyricsInahle()">Lyrics</button>
+                <div class="albumInfo lyrics" id="lyrics Inhale">
+                    <h1>Lyrics</h1>
+                    <button type="button" class="btn" onclick="closeLyrics()">Close</button>
+                </div>
             </div>
+
             <div class="element-box">
                 2. Someday
                 <audio controls></audio>
+                <button class="btn" onclick="openLyricsSome()">Lyrics</button>
+                <div class="albumInfo lyrics" id="lyrics Someday">
+                    <h1>Lyrics2</h1>
+                    <button type="button" class="btn" onclick="closeLyrics()">Close</button>
+                </div>
+                
             </div>
             <div class="element-box">
                 3. Neverending Nights
@@ -32,14 +46,7 @@
 </div>
 </div>
 
-<script>
-function openInfo() {
-  document.getElementById("myInfo").style.display = "block";
-}
-
-function closeInfo() {
-  document.getElementById("myInfo").style.display = "none";
-}
-</script>
+<script src="/js/albumInfo.js"></script>
+   
 </body>
 </html>
