@@ -12,30 +12,6 @@ body {
     background-color: black;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Optional spacing */
-}
-
-.element-box {
-    flex: 1 1 auto; /* Allows flexible sizing */
-    min-width: 31.33% ; /* Ensures 3 per row */
-    text-align: center;
-    margin: 10px;
-}
-
-.albumInfo {
-    display: none;
-    background-color: rgb(59, 16, 87);
-    padding: 5em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 50vh;
-}
-
 .btn {
     background-color: black;
 }

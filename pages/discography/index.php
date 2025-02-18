@@ -2,6 +2,7 @@
     <title>Discography</title>
     <?php include "../../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/discography.css">
     <link rel="stylesheet" href="/css/meta.css">
 </head>
 <body>
@@ -19,8 +20,6 @@
             <div class="element-box"> <a href="">Ephemeral</a> </div>
             <div class="element-box"> <a href="">Unreal</a> </div>
         </div>
-
-        
 
         <h1>Pre-2010</h1>
         <br>

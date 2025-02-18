@@ -1,9 +1,8 @@
 <head>
     <title>Template</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-    <script defer src="/js/lyrics.js"></script>
     <?php include "../../../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/discography.css">
     <link rel="stylesheet" href="/css/meta.css">
 </head>
 <body>
@@ -26,9 +25,9 @@
                 <div class="albumInfo lyrics" id="lyrics Someday">
                     <h1>Lyrics2</h1>
                     <button type="button" class="btn" onclick="closeLyrics()">Close</button>
-                </div>
-                
+                </div>    
             </div>
+
             <div class="element-box">
                 3. Neverending Nights
                 <audio controls></audio>
@@ -37,6 +36,8 @@
                 4. Bleed black
                 <audio controls></audio>
             </div>
+
+
             <button class="btn open-button" onclick="openInfo()">Open Info</button>
 
 <div style="display: flex; justify-content: center; align-items: center;" width="100%">
@@ -47,6 +48,6 @@
 </div>
 
 <script src="/js/albumInfo.js"></script>
-   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </body>
 </html>
