@@ -2,8 +2,13 @@ albums:
   - albumTitle: "D E A T H"
     songs:
       - title: "Inhale, Exhale"
-        lyrics: "This is a long line\nthat will be split\ninto multiple lines."
-
+        lyrics: "Rub the salt..."
       - title: "Someday"
-        lyrics: "This is a long line\nthat will be split\ninto multiple lines."
+        lyrics: "I Know what..."
 
+  - albumTitle: "ETERNITY"
+    songs:
+      - title: "Example A"
+        lyrics: "lyrics here"
+      - title: "Example B"
+        lyrics: "lyrics here"

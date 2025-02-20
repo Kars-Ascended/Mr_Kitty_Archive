@@ -1,0 +1,22 @@
+.lyrics-box {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1em;
+
+    width: 30em;
+    height: 70vh;
+    background-color: purple;
+
+    p {
+        margin-top: 1em;
+        text-align: center;
+        background-color: black;
+    }
+    button {
+        position: absolute;
+        bottom:0;
+        margin:1em;
+        width:10em; height:5em;
+    }
+}
