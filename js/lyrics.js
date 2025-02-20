@@ -17,8 +17,9 @@ async function loadLyrics(albumTitle, songTitle) {
         const safeSong = songTitle.replace(/[^a-zA-Z0-9]/g, '');
         const lyricsBox = document.getElementById(`lyrics-${safeAlbum}-${safeSong}`);
 
-        lyricsBox.innerHTML = `<h3>${song.title}</h3><p>${song.lyrics}</p>
-                               <button onclick="closeLyrics('${albumTitle}', '${songTitle}')">Close</button>`;
+        lyricsBox.innerHTML = `<h3>${song.title}</h3><p>${song.lyrics.replace(/\/n /g, '<br>')}</p>
+                       <button onclick="closeLyrics('${albumTitle}', '${songTitle}')">Close</button>`;
+
         lyricsBox.style.display = 'block';
     } catch (error) {
         console.error("Error loading lyrics:", error);

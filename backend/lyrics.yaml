@@ -2,7 +2,7 @@ albums:
   - albumTitle: "D E A T H"
     songs:
       - title: "Inhale, Exhale"
-        lyrics: "Rub the salt..."
+        lyrics: "These are the first lyrics line./n This is the second line./n And this is the third line."
       - title: "Someday"
         lyrics: "I Know what..."
 
