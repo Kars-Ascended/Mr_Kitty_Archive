@@ -1,9 +1,9 @@
 RewriteEngine On
 
 # Rewrite pages
-RewriteRule ^home$ index.php [L]
-RewriteRule ^lyrics$ lyrics.php [L]
 RewriteRule ^daily-song$ dailySong.php [L]
+RewriteRule ^gallery$ gallery.php [L]
+RewriteRule ^home$ index.php [L]
 
 
 
