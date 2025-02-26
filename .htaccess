@@ -1,13 +1,12 @@
 RewriteEngine On
 
-# Rewrite pages
-RewriteRule ^daily-song$ dailySong.php [L]
-RewriteRule ^gallery$ gallery.php [L]
 RewriteRule ^home$ index.php [L]
+# discography not needed as its a dir
+RewriteRule ^gallery$ gallery.php [L]
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^daily-song$ dailySong.php [L]
 
-
-
-# hide pages
+# hide 'pages' from url
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /pages/$1 [L]
