@@ -1,5 +1,5 @@
 <head>
-    <title>Template</title>
+    <title>D E A T H</title>
     <?php include "../../../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/discography.css">
@@ -32,9 +32,6 @@
             <div class="lyrics-box" id="lyrics-ETERNITY-ExampleB" style="display:none;"></div>
         </div>
     </div>
-
-    
-
 
 </body>
 </html>

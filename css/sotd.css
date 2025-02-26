@@ -1,4 +1,7 @@
-.sotd {    position: relative;
+h1 { text-align: center; }
+
+.sotd {   
+    position: relative;
     background-color: var(--dark);
     height:20em;
     margin-inline: 3em;
@@ -12,7 +15,6 @@
     position: absolute;
     right:0;
     top:0;
-
     padding:1em;
     border-radius: 2em;
 }
@@ -51,10 +53,6 @@
     display: flex;
     align-items: center;
     height:100%;
-}
-
-h1 {
-    text-align: center;
 }
 
 .links img {
