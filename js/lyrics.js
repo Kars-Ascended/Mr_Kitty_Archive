@@ -1,3 +1,5 @@
+// if these are not working for new lyrics added to lyrics.yaml, they need to be refreshed on the browser so go to it and ctrl + f5
+
 async function loadLyrics(albumTitle, songTitle) {
     try {
         const response = await fetch('/backend/lyrics.yaml');
