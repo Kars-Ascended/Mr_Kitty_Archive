@@ -2,7 +2,7 @@
 
 async function loadLyrics(albumTitle, songTitle) {
     try {
-        const response = await fetch('/backend/lyrics.yaml');
+        const response = await fetch('/backend/songlist.yaml');
         const yamlText = await response.text();
         const yamlData = jsyaml.load(yamlText);
 

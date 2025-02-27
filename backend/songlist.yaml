@@ -10,6 +10,7 @@ albums:
         spotifyLink: "https://open.spotify.com/track/1CXR1WOvb9E8RKbDC8LhZu"
         youtubeLink: ""
         filePath: ""
+        lyrics: "These are the first lyrics line./n This is the second line./n And this is the third line."
       - title: "Someday"
         spotifyLink: "https://open.spotify.com/track/7gPO3Xx8ydPgwxxw0V18iV"
         youtubeLink: ""
