@@ -9,5 +9,5 @@ feel free to tidy up the code, sorry its such a mess 😭
 
 when adding images to mr-kitty updates, name them after the date posted. if that name is already taken then append .1 to the end
 the structure is as follows
-\*\*\*Title\*\*\* \*\*Date\*\* $$Message$$ !!image name if needed!!
+\*\*\*Title\*\*\* \*\*Date\*\* \$\$Message\$\$ !!image name if needed!!
 ^ ignore the slashes here if viewing the raw file, its for markdown escape
