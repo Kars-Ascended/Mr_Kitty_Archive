@@ -8,30 +8,43 @@ Object.entries(files).forEach(([file, containerId]) => {
   fetch(file)
     .then(response => response.text())
     .then(data => {
-      const updates = data.trim().split("\n").map(line => {
-        const match = line.match(/\*\*\*(.*?)\*\*\* \*\*(.*?)\*\* \$\$(.*?)\$\$(?: !!(.*?)!!)?/);
-        return match ? { title: match[1], date: match[2], message: match[3], image: match[4] || null } : null;
-      }).filter(update => update);
+      // Instead of splitting by newlines first, look for complete update patterns
+      const updateRegex = /\*\*\*(.*?)\*\*\* \*\*(.*?)\*\* \$\$([\s\S]*?)\$\$(?: !!(.*?)!!)?/g;
+      const updates = [];
+      let match;
+      
+      while ((match = updateRegex.exec(data)) !== null) {
+        updates.push({
+          title: match[1],
+          date: match[2],
+          message: match[3],
+          image: match[4] || null
+        });
+      }
 
       const container = document.getElementById(containerId);
       updates.forEach(update => {
         const updateDiv = document.createElement("div");
         updateDiv.classList.add("update");
 
+        const titleDateDiv = document.createElement("div");
+        titleDateDiv.classList.add("title-date");
+
         const titleDiv = document.createElement("div");
         titleDiv.classList.add("title");
-        titleDiv.textContent = `Title: ${update.title}`;
+        titleDiv.textContent = update.title;
 
         const dateDiv = document.createElement("div");
         dateDiv.classList.add("date");
-        dateDiv.textContent = `Date: ${update.date}`;
+        dateDiv.textContent = update.date;
 
         const messageDiv = document.createElement("div");
         messageDiv.classList.add("message");
-        messageDiv.textContent = `Message: ${update.message}`;
+        messageDiv.innerHTML = update.message.replace(/\n/g, '<br>');
 
-        updateDiv.appendChild(titleDiv);
-        updateDiv.appendChild(dateDiv);
+        titleDateDiv.appendChild(titleDiv);
+        titleDateDiv.appendChild(dateDiv);
+        updateDiv.appendChild(titleDateDiv);
         updateDiv.appendChild(messageDiv);
 
         if (update.image) {
@@ -52,9 +65,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const divs = document.querySelectorAll(".toggle-div");
 
   buttons.forEach((button, index) => {
-      button.addEventListener("click", () => {
-          divs.forEach(div => div.style.display = "none");
-          divs[index].style.display = "block";
-      });
+    button.addEventListener("click", () => {
+        divs.forEach(div => div.style.display = "none");
+        if (divs[index].id === "updates-mr-kitty") {
+            divs[index].style.display = "flex";
+            divs[index].style.flexWrap = "wrap";
+            divs[index].style.gap = "10px";
+        } else {
+            divs[index].style.display = "block";
+        }
+    });
   });
 });

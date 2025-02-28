@@ -11,3 +11,6 @@ the structure is as follows:
 \*\*\*Title\*\*\* \*\*Date\*\* \$\$Message\$\$ !!image name if needed!!
 
 ^ ignore the slashes here if viewing the raw file, its for markdown escape
+
+updates are also not sorted by date, place them in the file where it belongs (most recent at the top).
+also use GMT time 🙏 

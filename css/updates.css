@@ -8,6 +8,8 @@
 .title-date {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -29,4 +31,11 @@
 img {
     max-width: 30em;
     max-height: 30em;
+}
+
+#updates-mr-kitty .update {
+    flex: 1 0 45%; /* grow | shrink | basis */
+    margin: 5px;
+    box-sizing: border-box;
+    max-width: 49%;
 }
