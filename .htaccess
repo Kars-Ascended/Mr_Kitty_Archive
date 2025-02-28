@@ -2,6 +2,7 @@ RewriteEngine On
 
 RewriteRule ^home$ index.php [L]
 # discography not needed as its a dir
+RewriteRule ^updates$ updates.php [L]
 RewriteRule ^gallery$ gallery.php [L]
 RewriteRule ^contact$ contact.php [L]
 RewriteRule ^daily-song$ dailySong.php [L]
