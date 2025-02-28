@@ -25,3 +25,8 @@
 .toggle-div {
     display: none;
 }
+
+img {
+    max-width: 30em;
+    max-height: 30em;
+}
