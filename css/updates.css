@@ -1,0 +1,27 @@
+.update {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.title-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.date {
+    color: gray;
+}
+
+.message {
+    font-style: italic;
+}
+
+.toggle-div {
+    display: none;
+}
