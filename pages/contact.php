@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="main">
-        <p>test<p>
+        Affiliates with <a href="https://reddit.com/r/MrKittyFans" target="_blank">r/MrKittyFans</a> on reddit, contact u/FatherEnrico for anything related to the website.
 
     </div>
 </body>

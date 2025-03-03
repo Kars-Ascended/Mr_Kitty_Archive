@@ -10,8 +10,14 @@
 
 body {
     background-color: black;
+    min-height: 100vh;
 }
 
 button {
     background-color: black;
+}
+
+a {
+    color: rgb(67, 31, 100) !important;
+    text-decoration: none;
 }

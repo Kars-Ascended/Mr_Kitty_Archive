@@ -1,5 +1,5 @@
 <head>
-    <title>D E A T H</title>
+    <title>ETERNITY</title>
     <?php include "../../../backend/nav.php" ?> 
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/discography.css">
@@ -11,77 +11,77 @@
 <body>
     <div class="main">
         <div class="song-container">
-            <p>1. Inhale, Exhale</p>
+            <p>1. 44 Days</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>2. Someday</p>
+            <p>2. Messiah</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>3. Neverending Nights</p>
+            <p>3. Lost Children</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>4. Bleed Black</p>
+            <p>4. Mother Mary</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>5. Haunts</p>
+            <p>5. Night Terror</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>6. Gold</p>
+            <p>6. Don't Worry</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>7. Fight Your Friends</p>
+            <p>7. Uncarresed</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>8. Constellations</p>
+            <p>8. Evaporating Sun</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>9. White Tiger</p>
+            <p>9. Hands</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>10. ††</p>
+            <p>10. Destroy Me</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>11. Disintegrate</p>
+            <p>11. Carnations</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>12. It Is All True</p>
+            <p>12. A New Hour</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>13. Mirror Casket</p>
+            <p>13. Detach</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>14. My Favorite Ghost</p>
+            <p>14. Breath Control</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>
         <div class="song-container">
-            <p>15. Resurrection</p>
+            <p>15. Modern Romance</p>
             <button class="lyrics-button">Show Lyrics</button>
             <div class="lyrics-box" style="display:none;"></div>
         </div>

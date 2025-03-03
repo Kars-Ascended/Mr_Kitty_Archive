@@ -1,35 +1,50 @@
-// if these are not working for new lyrics added to lyrics.yaml, they need to be refreshed on the browser so go to it and ctrl + f5
+document.addEventListener('DOMContentLoaded', function() {
+    // Get current album title from the page title
+    const pageTitle = document.title;
 
-async function loadLyrics(albumTitle, songTitle) {
-    try {
-        const response = await fetch('/backend/songlist.yaml');
-        const yamlText = await response.text();
-        const yamlData = jsyaml.load(yamlText);
+    fetch('/backend/songlist.yaml')
+        .then(response => response.text())
+        .then(yamlText => {
+            const data = jsyaml.load(yamlText);
+            // Find album based on page title
+            const currentAlbum = data.albums.find(album => album.albumTitle === pageTitle);
+            
+            if (!currentAlbum) {
+                console.error('Album not found:', pageTitle);
+                return;
+            }
 
-        // Find the album
-        const album = yamlData.albums.find(a => a.albumTitle === albumTitle);
-        if (!album) return console.error("Album not found:", albumTitle);
-
-        // Find the song
-        const song = album.songs.find(s => s.title === songTitle);
-        if (!song) return console.error("Song not found:", songTitle);
-
-        // Sanitize ID by removing non-alphanumeric characters
-        const safeAlbum = albumTitle.replace(/[^a-zA-Z0-9]/g, '');
-        const safeSong = songTitle.replace(/[^a-zA-Z0-9]/g, '');
-        const lyricsBox = document.getElementById(`lyrics-${safeAlbum}-${safeSong}`);
-
-        lyricsBox.innerHTML = `<h3>${song.title}</h3><p>${song.lyrics.replace(/\/n /g, '<br>')}</p>
-                       <button onclick="closeLyrics('${albumTitle}', '${songTitle}')">Close</button>`;
-
-        lyricsBox.style.display = 'block';
-    } catch (error) {
-        console.error("Error loading lyrics:", error);
-    }
-}
-
-function closeLyrics(albumTitle, songTitle) {
-    const safeAlbum = albumTitle.replace(/[^a-zA-Z0-9]/g, '');
-    const safeSong = songTitle.replace(/[^a-zA-Z0-9]/g, '');
-    document.getElementById(`lyrics-${safeAlbum}-${safeSong}`).style.display = 'none';
-}
+            document.querySelectorAll('.song-container').forEach(container => {
+                const songTitle = container.querySelector('p').textContent.split('. ')[1];
+                const button = container.querySelector('.lyrics-button');
+                const lyricsBox = container.querySelector('.lyrics-box');
+                
+                // Create close button
+                const closeButton = document.createElement('button');
+                closeButton.textContent = 'Close';
+                closeButton.classList.add('close-button');
+                lyricsBox.appendChild(closeButton);
+                
+                button.addEventListener('click', () => {
+                    const song = currentAlbum.songs.find(song => song.title === songTitle);
+                    if (song) {
+                        lyricsBox.innerHTML = song.lyrics.replace(/\/n/g, '<br>');
+                        lyricsBox.style.display = 'block';
+                        button.textContent = 'Hide Lyrics';
+                        
+                        // Re-add close button after innerHTML change
+                        const closeButton = document.createElement('button');
+                        closeButton.textContent = 'Close';
+                        closeButton.classList.add('close-button');
+                        lyricsBox.appendChild(closeButton);
+                        
+                        closeButton.addEventListener('click', () => {
+                            lyricsBox.style.display = 'none';
+                            button.textContent = 'Show Lyrics';
+                        });
+                    }
+                });
+            });
+        })
+        .catch(error => console.error('Error loading lyrics:', error));
+});
