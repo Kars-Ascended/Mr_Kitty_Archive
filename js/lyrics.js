@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (song) {
                         lyricsBox.innerHTML = song.lyrics.replace(/\/n/g, '<br>');
                         lyricsBox.style.display = 'block';
-                        button.textContent = 'Hide Lyrics';
                         
                         // Re-add close button after innerHTML change
                         const closeButton = document.createElement('button');
