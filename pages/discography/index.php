@@ -12,7 +12,7 @@
         <div class="main-container">
             <div class="element-box"> <a href="album/death.php">D E A T H</a> </div>
             <div class="element-box"> <a href="album/eternity.php">ETERNITY</a> </div>
-            <div class="element-box"> <a href="">Life</a> </div>
+            <div class="element-box"> <a href="album/life.php">Life</a> </div>
             <div class="element-box"> <a href="">Time</a> </div>
             <div class="element-box"> <a href="">Fragments</a> </div>
             <div class="element-box"> <a href="">-+</a> </div>
