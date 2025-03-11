@@ -55,6 +55,19 @@
         <div class="song-container">
             <p>15. Modern Romance</p>
         </div>
+        <div class="albumInfo">
+            <h2>Album Info</h2>
+            <h2>- NAME -</h2>
+                <h3>Release Date: xxxx</h3>
+                <h3>Songs: xxxx</h3>
+                <h3>Total Length: xxxx</h3>
+                <h3>Related: <a href="">xxxx</a>, <a href="">xxxx</a></h3>
+                <h2>Facts:</h2>
+                <h3>xxxx</h3>
+                <h3>xxxx</h3>
+                <h3>xxxx</h3>
+            <img src="/assets\images\placeholder.webp">
+        </div>
     </div>
 </body>
 </html>

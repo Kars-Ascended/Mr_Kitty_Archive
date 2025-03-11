@@ -13,12 +13,11 @@
             <div class="element-box"> <a href="album/death.php">D E A T H</a> </div>
             <div class="element-box"> <a href="album/eternity.php">ETERNITY</a> </div>
             <div class="element-box"> <a href="album/life.php">Life</a> </div>
-            <div class="element-box"> <a href="">Time</a> </div>
-            <div class="element-box"> <a href="">Fragments</a> </div>
-            <div class="element-box"> <a href="">-+</a> </div>
-            <div class="element-box"> <a href="">A.I.</a> </div>
-            <div class="element-box"> <a href="">Ephemeral</a> </div>
-            <div class="element-box"> <a href="">Unreal</a> </div>
+            <div class="element-box"> <a href="album/time.php">Time</a> </div>
+            <div class="element-box"> <a href="album/fragments.php">Fragments</a> </div>
+            <div class="element-box"> <a href="album/A.I..php">A.I.</a> </div>
+            <div class="element-box"> <a href="album/Ephemeral.php">Ephemeral</a> </div>
+            <div class="element-box"> <a href="album/Unreal.php">Unreal</a> </div>
             <div class="element-box"> <a href="">???</a> </div>
         </div>
 
