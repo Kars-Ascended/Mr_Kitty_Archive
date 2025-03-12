@@ -8,7 +8,6 @@
 <body>
     <div class="main">
         <h1>Main Discography</h1>
-        <br>
         <div class="main-container">
             <div class="element-box"> <a href="album/death.php">D E A T H</a> </div>
             <div class="element-box"> <a href="album/eternity.php">ETERNITY</a> </div>
@@ -22,7 +21,6 @@
         </div>
 
         <h1>Pre-2010</h1>
-        <br>
         <div class="main-container">
             <div class="element-box"> <a href="">Fold</a> </div>
             <div class="element-box"> <a href="">BoxCore</a> </div>
@@ -51,22 +49,19 @@
             <div class="element-box"> <a href="">Illusions</a> </div>
             <div class="element-box"> <a href="">Until Death Do Us Part</a> </div>
         </div>
-        <br>
+
         <h1>Other [Singles / Remixes / Demos]</h1>
-        <br>
         <div class="main-container">
             <div class="element-box"> <a href="">Test</a> </div>
             <div class="element-box"> <a href="">Test</a> </div>
         </div>
-        <br>
+
         <h1>Alts [Songs with alternate versions]</h1>
-        <br>
         <div class="main-container">
             <div class="element-box"> <a href="">D E A T H [2021 Remaster]</a> </div>
             <div class="element-box"> <a href="">ETERNITY [2021 Remaster]</a> </div>
             <div class="element-box"> <a href="">Life [2021 Remaster]</a> </div>
         </div>
-
-
+    </div>
 </body>
 </html>

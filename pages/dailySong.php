@@ -7,7 +7,6 @@
 <body>
     <div class="main">
       <h1 class="centre">Song Of The Day</h1>
-      <br>
       <div class="sotd">
         <div class="title">
           <h1 id="title">Song Title</h1>
@@ -34,7 +33,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script src="/js/sotd.js"></script>
-
 </body>
 </html>
 

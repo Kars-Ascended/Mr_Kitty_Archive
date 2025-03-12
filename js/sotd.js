@@ -52,9 +52,4 @@ fetch('/backend/songlist.yaml')
     } else {
       document.querySelector('#fileDownloadLink').style.display = 'none';
     }
-
-    
-
-
-
   });
