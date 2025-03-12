@@ -2,6 +2,16 @@
 # filePath will eventually link to the local path once added
 # i will soon add tags for explicit, featured artists, etc...
 
+# all possible tags look like this: (you dont need to include explicit or volume if they are not true, all others should be added but left blank if they cannot be filled)
+
+# - title: "NAME"
+#   spotifyLink: "LINK"
+#   youtubeLink: "LINK"
+#   filePath: "PATH"
+#   explicit: true
+#   volume: true
+#   lyrics: "LINE 1 /n LINE 2 /n LAST LINE"
+
 albums:
   - albumTitle: "D E A T H"
     albumCover: "/assets/images/covers/album/death.jpg"
@@ -15,7 +25,6 @@ albums:
         spotifyLink: "https://open.spotify.com/track/7gPO3Xx8ydPgwxxw0V18iV"
         youtubeLink: ""
         filePath: ""
-        explicit: true
         lyrics: "I know..."
       - title: "Neverending Nights"
         spotifyLink: "https://open.spotify.com/track/4SbvHXjItGZLKxs5rnXvKd"

@@ -38,6 +38,15 @@ async function loadSongs() {
                     titleContainer.appendChild(explicitImg);
                 }
                 
+                // Check for volume tag and add image if present
+                if (song.volume) {
+                    const volumeImg = document.createElement("img");
+                    volumeImg.src = "/assets/sotd_icons/volume.png";
+                    volumeImg.alt = "High Volume";
+                    volumeImg.classList.add("volume-icon");
+                    titleContainer.appendChild(volumeImg);
+                }
+                
                 songDiv.appendChild(titleContainer);
                 container.appendChild(songDiv);
             });

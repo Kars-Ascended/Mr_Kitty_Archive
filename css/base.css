@@ -20,3 +20,7 @@ button {
 a {
     color: rgb(154, 76, 226) !important;
 }
+
+.center {
+    text-align: center;
+}

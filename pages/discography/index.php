@@ -17,7 +17,7 @@
             <div class="element-box"> <a href="album/A.I..php">A.I.</a> </div>
             <div class="element-box"> <a href="album/Ephemeral.php">Ephemeral</a> </div>
             <div class="element-box"> <a href="album/Unreal.php">Unreal</a> </div>
-            <div class="element-box"> <a href="">???</a> </div>
+            <div class="element-box"> <a href="album/Blue.php">?Blue?</a> </div>
         </div>
 
         <h1>Pre-2010</h1>
