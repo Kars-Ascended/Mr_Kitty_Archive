@@ -8,9 +8,9 @@ site-wide css should go in "base.css" and any specific things should go in their
 
 when adding images to mr-kitty updates, name them after the date posted. if that name is already taken then append .1 to the end,
 the structure is as follows:
-\*\*\*Title\*\*\* \*\*Date\*\* \$\$Message\$\$ !!image name if needed!!
+***Title*** **Date** $$Message$$ !!image name if needed!!
 
-^ ignore the slashes here if viewing the raw file, its for markdown escape
+^ view raw file for this, git formats it
 
 updates are also not sorted by date, place them in the file where it belongs (most recent at the top).
 also use GMT time 🙏 
