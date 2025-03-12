@@ -24,7 +24,7 @@
                 <h3>xxxx</h3>
                 <h3>xxxx</h3>
                 <h3>xxxx</h3>
-            <img src="/assets\images\placeholder.webp">
+            <img src="\assets\images\placeholder.webp">
         </div>
     </div>
 </body>
