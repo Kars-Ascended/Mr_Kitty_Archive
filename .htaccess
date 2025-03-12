@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Redirect root URL to /pages/home
+RewriteRule ^$ /home [L,R=302]
+
 # discography not needed as its a dir
 RewriteRule ^contact$ contact.php [L]
 RewriteRule ^daily-song$ dailySong.php [L]
