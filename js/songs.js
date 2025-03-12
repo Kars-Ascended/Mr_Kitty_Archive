@@ -19,7 +19,26 @@ async function loadSongs() {
             album.songs.forEach((song, index) => {
                 const songDiv = document.createElement("div");
                 songDiv.classList.add("song-container");
-                songDiv.innerHTML = `<p>${index + 1}. ${song.title}</p>`;
+                
+                // Create song title container
+                const titleContainer = document.createElement("div");
+                titleContainer.classList.add("song-title-container");
+                
+                // Add song title
+                const songTitle = document.createElement("p");
+                songTitle.textContent = `${index + 1}. ${song.title}`;
+                titleContainer.appendChild(songTitle);
+                
+                // Check for explicit tag and add image if present
+                if (song.explicit) {
+                    const explicitImg = document.createElement("img");
+                    explicitImg.src = "/assets/sotd_icons/explicit.png";
+                    explicitImg.alt = "Explicit";
+                    explicitImg.classList.add("explicit-icon");
+                    titleContainer.appendChild(explicitImg);
+                }
+                
+                songDiv.appendChild(titleContainer);
                 container.appendChild(songDiv);
             });
 
