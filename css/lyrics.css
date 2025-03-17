@@ -1,24 +1,45 @@
+/* lyrics.css */
 .lyrics-box {
-    position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%,-50%);
-    padding: 1em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1em;
+  width: 30em;
+  height: 70vh;
+  background-color: purple;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.5s var(--ease);
+}
 
-    width: 30em;
-    height: 70vh;
-    background-color: purple;
+.lyrics-box p {
+  margin-top: 1em;
+  text-align: center;
+  background-color: black;
+  padding: 0.5em;
+  border-radius: 5px;
+  transition: background-color var(--transition-duration) var(--ease);
+}
 
-    p {
-        margin-top: 1em;
-        text-align: center;
-        background-color: black;
-    }
-    
-    button {
-        position: absolute;
-        bottom:0;
-        left:0;
-        margin:1em;
-        width:10em; height:5em;
-    }
+.lyrics-box p:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.lyrics-box button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1em;
+  width: 10em;
+  height: 5em;
+  border: none;
+  border-radius: 5px;
+  transition: background-color var(--transition-duration) var(--ease);
+}
+
+.lyrics-box button:hover {
+  background-color: var(--primary-color);
+  animation: pulse var(--pulse-duration) var(--ease);
 }

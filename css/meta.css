@@ -1,46 +1,67 @@
-/* meta = the info boxes on pages */
-
+/* meta.css */
 .meta {
-    padding: 0px 0px;
-    width: 75%;
-    border-radius: 14px;
-    margin: auto;
-    margin-top: 1em;
-    line-height: 1.25;
-    color: rgb(220, 220, 230);
-    text-align: center;}
+  padding: 0;
+  width: 75%;
+  border-radius: 14px;
+  margin: auto;
+  margin-top: 1em;
+  line-height: 1.25;
+  color: rgb(220, 220, 230);
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.8s var(--ease) forwards;
+  transition: transform var(--transition-duration) var(--ease);
+}
 
-    .meta * {
-        padding-top:0em;
-        margin:0;
-    }
-    
-    .meta h3 {padding-top: 0.8em;}
-    .meta p {padding-bottom: 1em; padding-top: 0.3em;}
+.meta:hover {
+  animation: pulse var(--pulse-duration) var(--ease);
+}
 
+.meta * {
+  padding-top: 0;
+  margin: 0;
+}
 
-/* BOXES DOWN HERE */
+.meta h3 {
+  padding-top: 0.8em;
+}
+
+.meta p {
+  padding: 0.3em 0 1em;
+}
+
+/* Unified box styles */
+.box4, .error, .helpers, .wip {
+  border: 4px solid;
+  border-radius: 14px;
+  padding: 1em;
+  margin: 1em 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform var(--transition-duration) var(--ease), box-shadow var(--transition-duration) var(--ease);
+}
 
 .box4 {
-    border-inline: 4px solid rgb(255, 160, 30);
-    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 160, 71) 100%) -13px top / 150% 110%;
-    box-shadow: rgb(246, 160, 0) 0px 0px 9px 0px
+  border-color: rgb(255, 160, 30);
+  background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 160, 71) 100%);
 }
 
 .error {
-    border-inline: 4px solid rgb(255, 30, 30);
-    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 71, 71) 100%) -13px top / 150% 110%;
-    box-shadow: rgb(246, 0, 0) 0px 0px 9px 0px
+  border-color: rgb(255, 30, 30);
+  background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 71, 71) 100%);
 }
 
 .helpers {
-    border-inline: 4px solid rgb(30, 30, 255);
-    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(71, 71, 255) 100%) -13px top / 150% 110%;
-    box-shadow: rgb(0, 0, 255) 0px 0px 9px 0px
+  border-color: rgb(30, 30, 255);
+  background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(71, 71, 255) 100%);
 }
 
 .wip {
-    border-inline: 4px solid rgb(255, 199, 30);
-    background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 224, 71) 100%) -13px top / 150% 110%;
-    box-shadow: rgb(246, 209, 0) 0px 0px 9px 0px
+  border-color: rgb(255, 199, 30);
+  background: radial-gradient(ellipse at 40% 70%, rgba(0, 0, 0, 0.26) 35%, rgb(255, 224, 71) 100%);
+}
+
+.box4:hover, .error:hover, .helpers:hover, .wip:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  animation: pulse var(--pulse-duration) var(--ease);
 }

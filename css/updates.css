@@ -1,41 +1,60 @@
+/* updates.css */
 .update {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: transform var(--transition-duration) var(--ease), box-shadow var(--transition-duration) var(--ease);
+  animation: fadeInUp 0.5s var(--ease);
+}
+
+.update:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  animation: pulse var(--pulse-duration) var(--ease);
 }
 
 .title-date {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .title {
-    font-weight: bold;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .date {
-    color: gray;
+  color: gray;
+  font-size: 0.9em;
 }
 
 .message {
-    font-style: italic;
+  font-style: italic;
+  margin-top: 0.5em;
 }
 
 .toggle-div {
-    display: none;
+  display: none;
 }
 
 img {
-    max-width: 30em;
-    max-height: 30em;
+  max-width: 30em;
+  max-height: 30em;
+  transition: transform var(--transition-duration) var(--ease);
+}
+
+img:hover {
+  transform: scale(1.02);
+  animation: pulse var(--pulse-duration) var(--ease);
 }
 
 #updates-mr-kitty .update {
-    flex: 1 0 45%; /* grow | shrink | basis */
-    margin: 5px;
-    box-sizing: border-box;
-    max-width: 49%;
+  flex: 1 0 45%;
+  margin: 5px;
+  box-sizing: border-box;
+  max-width: 49%;
 }

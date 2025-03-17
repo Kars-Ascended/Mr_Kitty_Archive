@@ -1,26 +1,93 @@
-/* Used for elements included on all pages like bg, basic body borders, navbar, etc...*/ 
+/* base.css */
+/* Global resets, variables, and core animations */
 
 * {
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    color: white; /* Makes all text (and other things) white, override manually if needed */ 
-    font-family: Arial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+:root {
+  --primary-color: rgb(154, 76, 226);
+  --primary-hover: rgb(200, 120, 255);
+  --background-color: #000;
+  --accent-color: rgb(255, 160, 30);
+  --dark: #111;
+  --darker: #222;
+  --ease: ease-in-out;
+  --float-duration: 3s;
+  --pulse-duration: 0.2s;
 }
 
 body {
-    background-color: black;
-    min-height: 100vh;
+  margin: 1em;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  
+  .main {
+  animation: fadeIn 0.5s var(--ease);
+  }
 }
 
 button {
-    background-color: black;
+  background-color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-duration) var(--ease);
 }
 
-a {
-    color: rgb(154, 76, 226) !important;
+button:hover {
+  background-color: var(--primary-color);
+}
+
+.explicit-icon, .volume-icon {
+  width: 1em;
+  height: 1em;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: var(--primary-color) !important;
+  transition: color var(--transition-duration) var(--ease);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.02); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(-2.5px); }
+  50% { transform: translateY(2.5px); }
 }

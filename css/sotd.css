@@ -1,72 +1,109 @@
-h1 { text-align: center; }
+/* sotd.css */
+h1 {
+  text-align: center;
+  animation: fadeIn 1s var(--ease);
+}
 
-.sotd {   
-    position: relative;
-    background-color: var(--dark);
-    height:20em;
-    margin-inline: 3em;
-    border-radius: 30px;
+.sotd {
+  position: relative;
+  background-color: var(--dark);
+  height: 20em;
+  margin: 0 3em;
+  border-radius: 30px;
+  overflow: hidden;
+  animation: fadeInUp 0.6s var(--ease);
+  transition: transform var(--transition-duration) var(--ease);
+}
+
+.sotd:hover {
+  transform: scale(1.02);
+  animation: pulse var(--pulse-duration) var(--ease);
 }
 
 .sotd #albumCover {
-    max-height: 100%;
-    width: auto; /* Maintains aspect ratio */
-    height: auto; /* Ensures image scales properly */
-    position: absolute;
-    right:0;
-    top:0;
-    padding:1em;
-    border-radius: 2em;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1em;
+  border-radius: 2em;
+  transition: transform var(--transition-duration) var(--ease);
+  animation: float var(--float-duration) var(--ease) infinite;
+}
+
+.sotd #albumCover:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 .sotd .title {
-    position: absolute;
-    width: calc((100% - 320px) - 3em);
-    text-align: center;
-    border-radius: 15px;
-    background-color: var(--darker);
-    height:40%;
-    margin-inline: 2em;
-    margin-top:1em;
-    
+  position: absolute;
+  width: calc((100% - 320px) - 3em);
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--darker);
+  height: 40%;
+  margin: 1em 2em 0;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: fadeIn 0.8s var(--ease) forwards;
 }
 
 .sotd #link {
-    position: absolute;
-    width: calc((100% - 320px) - 3em);
-    text-align: center;
-    border-radius: 15px;
-    background-color: var(--darker);
-    height:40%;
-    margin-inline: 2em;
-    margin-top:1em;
-    top:10em
+  position: absolute;
+  width: calc((100% - 320px) - 3em);
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--darker);
+  height: 40%;
+  margin: 1em 2em 0;
+  top: 10em;
+  padding: 0.5em;
+  opacity: 0;
+  animation: fadeIn 0.8s var(--ease) 0.3s forwards;
 }
 
 .sotd #title {
-    justify-content: center;
-    margin:0;
-    position: absolute;
-    top:0;
-    width:100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  opacity: 0;
+  animation: fadeIn 1s var(--ease) forwards;
 }
 
 .links img {
-    max-height:9em;
-    margin-top:-0.5em;
-    padding:1em;
-    border-radius: 2em;
+  max-height: 9em;
+  margin-top: -0.5em;
+  padding: 1em;
+  border-radius: 2em;
+  transition: transform var(--transition-duration) var(--ease);
 }
 
-.explicit {display: none; color: red; font-weight: bold;}
+.links img:hover {
+  transform: scale(1.05);
+  animation: pulse var(--pulse-duration) var(--ease);
+}
 
-    .explicit img {
-        width:1em;
-        position: absolute;
-        bottom: 0.5em;
-        right: 0.5em;
-    }
+.explicit {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+.explicit img {
+  width: 1em;
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+}
