@@ -32,6 +32,11 @@ function setupLyrics(data) {
             lyricsBox.classList.add('lyrics-box');
             lyricsBox.style.display = 'none';
 
+            // Create lyrics content container
+            const lyricsContent = document.createElement('div');
+            lyricsContent.classList.add('lyrics-content');
+            lyricsBox.appendChild(lyricsContent);
+
             // Append new elements
             container.appendChild(lyricsButton);
             container.appendChild(lyricsBox);
@@ -41,7 +46,7 @@ function setupLyrics(data) {
             lyricsButton.addEventListener('click', () => {
                 const song = currentAlbum.songs.find(song => song.title === songTitle);
                 if (song) {
-                    lyricsBox.innerHTML = song.lyrics ? song.lyrics.replace(/\/n/g, '<br>') : 'Lyrics not available';
+                    lyricsContent.innerHTML = song.lyrics ? song.lyrics.replace(/\n/g, '<br>') : 'Lyrics not available';
                     lyricsBox.style.display = 'block';
                     
                     // Create close button
