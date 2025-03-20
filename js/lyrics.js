@@ -49,6 +49,39 @@ function setupLyrics(data) {
                     closeButton.textContent = 'Close';
                     closeButton.classList.add('close-button');
                     lyricsBox.appendChild(closeButton);
+
+                    // Create download button and check if LRC file exists
+                    const lrcPath = `/assets/lrc_files/${currentAlbum.albumTitle}/${song.title}.lrc`;
+                    fetch(lrcPath)
+                        .then(response => {
+                            if (response.ok) {
+                                const downloadButton = document.createElement('button');
+                                downloadButton.textContent = 'Download LRC';
+                                downloadButton.classList.add('download-button');
+                                
+                                downloadButton.onclick = async () => {
+                                    try {
+                                        const response = await fetch(lrcPath);
+                                        const blob = await response.blob();
+                                        const url = window.URL.createObjectURL(blob);
+                                        const a = document.createElement('a');
+                                        a.href = url;
+                                        a.download = `${song.title}.lrc`;
+                                        document.body.appendChild(a);
+                                        a.click();
+                                        window.URL.revokeObjectURL(url);
+                                        document.body.removeChild(a);
+                                    } catch (error) {
+                                        console.error('Error downloading LRC file:', error);
+                                    }
+                                };
+                                
+                                lyricsBox.appendChild(downloadButton);
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error checking LRC file:', error);
+                        });
                     
                     closeButton.addEventListener('click', () => {
                         lyricsBox.style.display = 'none';

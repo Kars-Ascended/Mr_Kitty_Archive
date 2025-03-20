@@ -30,16 +30,25 @@
 .lyrics-box button {
   position: absolute;
   bottom: 0;
-  left: 0;
   margin: 1em;
   width: 10em;
   height: 5em;
   border: none;
   border-radius: 5px;
   transition: background-color var(--transition-duration) var(--ease);
+
+  
 }
 
 .lyrics-box button:hover {
   background-color: var(--primary-color);
   animation: pulse var(--pulse-duration) var(--ease);
+}
+
+.close-button {
+  left: 0;
+}
+
+.download-button {
+  right:0 !important;
 }
