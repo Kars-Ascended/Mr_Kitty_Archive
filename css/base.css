@@ -24,7 +24,6 @@
 body {
   margin: 1em;
   background-color: var(--background-color);
-  min-height: 100vh;
   
   .main {
   animation: fadeIn 0.5s var(--ease);
