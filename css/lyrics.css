@@ -16,32 +16,11 @@
 }
 
 .lyrics-content {
-  max-height: calc(70vh - 7em); /* Adjust based on your buttons height */
+  max-height: calc(70vh - 7em);
   flex: 1;
   overflow-y: auto;
-  margin-bottom: 7em; /* Space for buttons */
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: var(--primary-color) rgba(0, 0, 0, 0.2); /* For Firefox */
-}
-
-/* Webkit scrollbar styling (Chrome, Safari, Edge) */
-.lyrics-content::-webkit-scrollbar {
-  width: 16px;
-}
-
-.lyrics-content::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-}
-
-.lyrics-content::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 4px;
-}
-
-.lyrics-content::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-color);
-  filter: brightness(1.2);
+  margin-bottom: 7em;
+  scrollbar-color: var(--primary-color) rgba(0, 0, 0, 0);
 }
 
 .lyrics-box p {
@@ -79,4 +58,10 @@
 
 .download-button {
   right:0 !important;
+}
+
+.lyrics-content {
+  padding: 1em;
+  border: 1px solid white;
+  border-radius: 1em;
 }
