@@ -54,3 +54,7 @@
   transform: scale(1.1);
   opacity: 0.9;
 }
+
+.songs img {
+  max-width: 5em;
+}

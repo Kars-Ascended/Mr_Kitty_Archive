@@ -6,6 +6,8 @@
 
 # all possible tags look like this: (you dont need to include explicit or volume if they are not true, all others should be added but left blank if they cannot be filled)
 
+#albums:
+# - albumTitle: "ALBUM NAME"
 # - title: "NAME"
 #   spotifyLink: "LINK"
 #   youtubeLink: "LINK"

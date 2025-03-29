@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const pageTitle = document.title;
 
-    fetch('/backend/songlist.yaml')
+    fetch('/backend/songlist.csv')
         .then(response => response.text())
-        .then(yamlText => {
-            const data = jsyaml.load(yamlText);
+        .then(csvText => {
+            const rows = csvText.split('\n');
+            const data = processCSVData(rows);
             setupLyrics(data);
         })
         .catch(error => console.error('Error loading lyrics:', error));
@@ -46,7 +47,7 @@ function setupLyrics(data) {
             lyricsButton.addEventListener('click', () => {
                 const song = currentAlbum.songs.find(song => song.title === songTitle);
                 if (song) {
-                    lyricsContent.innerHTML = song.lyrics ? song.lyrics.replace(/\n/g, '<br>') : 'Lyrics not available';
+                    lyricsContent.innerHTML = song.lyrics ? song.lyrics.replace(/\/n/g, '<br>') : 'Lyrics not available';
                     lyricsBox.style.display = 'block';
                     
                     // Create close button
